@@ -8,8 +8,8 @@ public class Main {
 Добавить переменную для сброса бомб и указать, на каких координатах она была сброшена.
 */
         Plane justPlane = new Plane(100, 100, 100, 100);
-        justPlane.flyStraight(50);
-        justPlane.flyUp(80,90);
+        justPlane.flyStraight(200);
+        justPlane.flyUp(80,100);
         justPlane.dropBombs();
         justPlane.dropBombs();
         justPlane.dropBombs();
